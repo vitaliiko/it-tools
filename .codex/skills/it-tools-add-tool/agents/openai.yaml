@@ -1,0 +1,4 @@
+interface:
+  display_name: "IT-Tools Add Tool"
+  short_description: "Add a new tool to the IT-Tools app"
+  default_prompt: "Use $it-tools-add-tool to add a new tool to this IT-Tools app."
