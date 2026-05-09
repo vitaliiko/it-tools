@@ -1,0 +1,9 @@
+services:
+  it-tools:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: it-tools
+    restart: unless-stopped
+    ports:
+      - "8080:80"
